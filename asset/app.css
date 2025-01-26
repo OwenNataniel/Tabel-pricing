@@ -144,7 +144,7 @@ body {
 .panel {
   background-color: #09122c;
   border-radius: 10px;
-  padding: 15px 20px;
+  padding: 15px 25px;
   width: 100%;
   max-width: 960px;
   display: flex;
@@ -222,4 +222,18 @@ body {
 .pricing-button.is-featured:focus {
   background-color: #09122c;
   color: #be3144;
+}
+
+@media (min-width: 900px) {
+  .panel {
+    flex-direction: row;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid grey;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
 }
