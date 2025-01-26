@@ -196,3 +196,30 @@ body {
   font-size: 32px;
   font-weight: 700;
 }
+
+.pricing-button {
+  border: 1px solid #be3144;
+  border-radius: 10px;
+  color: #be3144;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e17564;
+}
+
+.pricing-button.is-featured {
+  border: 1px solid #be3144;
+  background-color: #e17564;
+  color: #09122c;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+  background-color: #09122c;
+  color: #be3144;
+}
