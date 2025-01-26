@@ -90,7 +90,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: "Allerta Stencil", serif;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -127,4 +126,24 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+/* code diatas untuk reset css agar tidak menggunakan default website yang disediakan */
+html {
+  box-sizing: border-box;
+  font-family: "Allerta Stencil", serif;
+}
+
+body {
+  background-color: #09122c;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 20px;
+  width: 100%;
+  max-width: 960px;
 }
